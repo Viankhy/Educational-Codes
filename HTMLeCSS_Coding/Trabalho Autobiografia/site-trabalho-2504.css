@@ -1,0 +1,87 @@
+body {
+    background-color: #191308;
+}
+hr {
+    width: 550px;
+}
+
+h1 {
+    color: #AA1155;
+    text-align: center;
+    font-family: Comic Relief;
+    font-size: 250%;
+}
+
+p {
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 150%;
+    font-family: Comic Relief;
+}
+
+li {
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 150%;
+    font-family: Comic Relief;
+}
+
+.profile {
+    border: 2px solid #ffffff;
+    width: 512px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.koba {
+    width: 156px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.ChickenJockey {
+    width:2048px;
+    height: 32px;
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+  border: 2px solid white;
+  border-radius: 12px;
+  width: auto;
+  overflow: hidden;
+}
+
+th {
+}
+
+td {
+  line-height: 0.5;
+}
+
+tr {
+}
+
+.destaque {
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.menor {
+ width: 436px; 
+}
+
+.odeio {
+  color: red;
+}
+
+.gosto {
+  color: green;
+}
