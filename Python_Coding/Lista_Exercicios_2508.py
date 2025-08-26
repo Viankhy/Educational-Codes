@@ -28,8 +28,6 @@
 #    e) e o quinto elemento é o ano em que estamos.
 # Observação: inserir utilizando o exemplo de Adição de dados por concatenação de dados e depois utilizar a função append]
 
-# - # - # - # - #
-
 y = 0
 
 print("Por favor, insira os dados pedidos;")
@@ -148,3 +146,38 @@ for i in range(len(NumExt)-1, -1, -1): # 17
         del NumExt[i] # 17
 
 print(f"Lista completa após a execução de todos os passos pedidos ao decorrer da atividade: {SV2 + NumExt}")
+print("Fim da lista 3ºBim, iniciando exercicios 6.X...")
+print()
+
+### Lista de Exercícios 3 [vale-nota]: 3BIM (PARTE I)
+
+### Exercício 6.2
+# Faça um programa que leia duas listas e que gere uma terceira com os elementos das duas primeiras.
+# Exemplo: Lista 1: AP = [31,8,1976,'21/08',2025]
+# Lista 2: PA = ['dia','mês','ano','ana','anoAtual']
+# Lista 3: APcomPA = [31,8,1976,'21/08',2025,'dia','mês','ano','ana','anoAtual']
+
+print(f"Exercicio 6.2\nUma lista que junta as listas VS e SV da atividade 'Lista 3ºBim'.\n{VS + SV[1:]}\n")
+
+
+### Exercício 6.3
+# Faça um programa que percorra duas listas e gere uma terceira sem elementos repetidos. Dica: usar um if para comparar os elementos
+
+lista1 = VS
+lista2 = SV[1:]
+
+ListaNoRepet = []
+for item in lista1:
+    if item not in ListaNoRepet:
+        ListaNoRepet.append(item)
+for item in lista2:
+    if item not in ListaNoRepet:
+        ListaNoRepet.append(item)
+
+print(f"Exercicio 6.3\nLista sem conteúdo repetido: {ListaNoRepet}\n")
+
+### Exercício 6.4
+# A partir do programa 6.2, o qual gerou um terceira lista. Remove os elementos de índices pares da lista gerada.
+
+ListaRepet = [x for x in ListaNoRepet if isinstance(x, int) and x % 2 == 1] # 8 ( Copiado da atividade )
+print(f"Exercicio 6.4\nLista sem a presença de números 'Pares': {ListaRepet}") # 8 ( Copiado da atividade )
