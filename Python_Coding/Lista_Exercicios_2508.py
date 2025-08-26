@@ -1,19 +1,19 @@
 # # Exercicio 6.1 - Modifique o programa da listagem 6.2 para ler 7 notas em vez de 5.
-# while True:
-#     notas = [0,0,0,0,0,0,0]   #1
-#     nomes=['','','','','','','']
-#     soma = 0
-#     x = 0
-#     while x < 7:
-#       nomes[x] = input('Informe seu nome: ')
-#       notas[x] = float(input(f'Nota {x}:')) #2
-#       soma += notas[x]
-#       x += 1
-#     x = 0                 #3
-#     while x < 7:          #4
-#       print(f'Nota {x}: {notas[x]:6.2f}')
-#       x += 1
-#     print(f'Média: {soma / x:5.2f}')
+while True:
+    notas = [0,0,0,0,0,0,0]   #1
+    nomes=['','','','','','','']
+    soma = 0
+    x = 0
+    while x < 7:
+      nomes[x] = input('Informe seu nome: ')
+      notas[x] = float(input(f'Nota {x}:')) #2
+      soma += notas[x]
+      x += 1
+    x = 0                 #3
+    while x < 7:          #4
+      print(f'Nota {x}: {notas[x]:6.2f}')
+      x += 1
+    print(f'Média: {soma / x:5.2f}')
 
 ### Lista de Exercícios 3 [vale-nota]: 3BIM (PARTE I)
 
