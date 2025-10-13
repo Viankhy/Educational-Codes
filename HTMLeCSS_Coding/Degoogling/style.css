@@ -1,0 +1,14 @@
+body {
+    background-color: hsl(0, 0%, 5%);
+}
+
+header {
+    background-color: hsl(0, 0%, 10%);
+    margin: 0.5cm;
+    border-radius: 2cm;
+    border: hsl(0, 0%, 20%) solid 2px;
+}
+
+p {
+    color: hsl(0, 0%, 100%);
+}
