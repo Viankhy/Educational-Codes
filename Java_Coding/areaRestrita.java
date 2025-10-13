@@ -13,9 +13,10 @@ public class areaRestrita {
         do {
             String loginInt = JOptionPane.showInputDialog("Login:");
             String passwordInt = JOptionPane.showInputDialog("Senha:");
-
+            @SuppressWarnings("unused");
+            
             if (loginInt.equalsIgnoreCase("root@voidlinux") && password.equals("void_linux")) {
-                JOptionPane.showMessageDialog(null, "Bem-vindo(a) ao sistema Void Linux!\nUsuário: " + login + "\nSenha: " + passwordInt);
+                JOptionPane.showMessageDialog(null, "Bem-vindo(a) ao sistema Void Linux!\nUsuário: " + login + "\nSenha: ");
                 trava -= 4;
             }
 
